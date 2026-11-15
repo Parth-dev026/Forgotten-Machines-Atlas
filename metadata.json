@@ -1,0 +1,8 @@
+{
+  "name": "Forgotten Machines Atlas",
+  "description": "An interactive educational digital atlas by Team ALPHA Explorers for the 2026 NASA Space Apps Challenge, chronicling NASA's historic robotic spacecraft, landers, rovers, and scientific instruments left on the Moon and Mars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

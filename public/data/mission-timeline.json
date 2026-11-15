@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.1.0",
+  "lastVerified": "2026-11-13",
+  "events": [
+    {
+      "id": "tl-1966-surveyor1",
+      "year": 1966,
+      "dateLabel": "June 2, 1966",
+      "title": "Surveyor 1 Achieves First U.S. Soft Lunar Landing",
+      "destination": "Moon",
+      "missionName": "Surveyor 1",
+      "summary": "Touchdown in Oceanus Procellarum confirmed lunar soil could safely support heavy crewed Apollo landers and returned 11,240 surface photographs.",
+      "equipmentId": "surveyor-1",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-1967-surveyor3",
+      "year": 1967,
+      "dateLabel": "April 20, 1967",
+      "title": "Surveyor 3 Lands Inside Shallow Lunar Crater",
+      "destination": "Moon",
+      "missionName": "Surveyor 3",
+      "summary": "Deployed a robotic surface sampler arm to dig trenches and test regolith mechanics before ceasing transmissions on May 3, 1967.",
+      "equipmentId": "surveyor-3",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-1969-apollo11",
+      "year": 1969,
+      "dateLabel": "July 20, 1969",
+      "title": "Apollo 11 Eagle Descent Stage Remains at Tranquility Base",
+      "destination": "Moon",
+      "missionName": "Apollo 11",
+      "summary": "Following the first crewed lunar landing, the Eagle descent stage served as the launch pad for the ascent stage and became humanity's first crewed hardware left on the Moon.",
+      "equipmentId": "apollo-lm-descent-stages",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-1969-apollo12-surveyor3",
+      "year": 1969,
+      "dateLabel": "November 19–20, 1969",
+      "title": "Apollo 12 Crew Revisits Surveyor 3 & Deploys First ALSEP",
+      "destination": "Moon",
+      "missionName": "Apollo 12 / Surveyor 3",
+      "summary": "Astronauts Pete Conrad and Alan Bean walked into Surveyor Crater to retrieve Surveyor 3's TV camera and scoop, while activating the first nuclear-powered ALSEP geophysical array.",
+      "equipmentId": "surveyor-3",
+      "eventCategory": "Revisit"
+    },
+    {
+      "id": "tl-1971-lrv1",
+      "year": 1971,
+      "dateLabel": "July 31, 1971",
+      "title": "First Lunar Roving Vehicle Drives Across Hadley-Apennine",
+      "destination": "Moon",
+      "missionName": "Apollo 15",
+      "summary": "LRV-1 expanded astronaut traverse range to 27.8 km around Hadley Rille before being parked permanently near the Falcon descent stage.",
+      "equipmentId": "lunar-roving-vehicles",
+      "eventCategory": "Milestone"
+    },
+    {
+      "id": "tl-1972-apollo17",
+      "year": 1972,
+      "dateLabel": "December 11–14, 1972",
+      "title": "Apollo 17 Concludes Apollo Surface Hardware Deployments",
+      "destination": "Moon",
+      "missionName": "Apollo 17",
+      "summary": "Challenger descent stage, LRV-3 (35.9 km driven), and the final ALSEP station were left at Taurus-Littrow Valley.",
+      "equipmentId": "apollo-lm-descent-stages",
+      "eventCategory": "Milestone"
+    },
+    {
+      "id": "tl-1976-viking1",
+      "year": 1976,
+      "dateLabel": "July 20, 1976",
+      "title": "Viking 1 Lander Touches Down at Chryse Planitia",
+      "destination": "Mars",
+      "missionName": "Viking 1",
+      "summary": "Delivered the first long-duration surface laboratory and panoramic camera photographs from the surface of Mars.",
+      "equipmentId": "viking-1-lander",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-1976-viking2",
+      "year": 1976,
+      "dateLabel": "September 3, 1976",
+      "title": "Viking 2 Lander Begins Operations on Utopia Planitia",
+      "destination": "Mars",
+      "missionName": "Viking 2",
+      "summary": "Operated on the northern Martian plains, recording winter water-ice frost and seismic monitoring data.",
+      "equipmentId": "viking-2-lander",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-1977-alsep-off",
+      "year": 1977,
+      "dateLabel": "September 30, 1977",
+      "title": "NASA Switches Off Apollo ALSEP Network",
+      "destination": "Moon",
+      "missionName": "ALSEP (Apollo 12–17)",
+      "summary": "After nearly eight years of lunar seismic and magnetic monitoring, operating ALSEP stations were commanded off due to budget constraints.",
+      "equipmentId": "alsep-packages",
+      "eventCategory": "Mission End"
+    },
+    {
+      "id": "tl-1980-viking2-end",
+      "year": 1980,
+      "dateLabel": "April 11, 1980",
+      "title": "Viking 2 Lander Ceases Operations on Utopia Planitia",
+      "destination": "Mars",
+      "missionName": "Viking 2",
+      "summary": "After 1,281 sols of Martian surface weather and frost observations, Viking 2 stopped transmitting when its batteries failed.",
+      "equipmentId": "viking-2-lander",
+      "eventCategory": "Mission End"
+    },
+    {
+      "id": "tl-1982-viking1-end",
+      "year": 1982,
+      "dateLabel": "November 11, 1982",
+      "title": "Final Contact with Viking 1 Lander After 2,245 Sols",
+      "destination": "Mars",
+      "missionName": "Viking 1",
+      "summary": "An erroneous uplink command caused the lander's antenna to point away from Earth, ending over six Earth years of Martian operations (mission ended November 13, 1982).",
+      "equipmentId": "viking-1-lander",
+      "eventCategory": "Mission End"
+    },
+    {
+      "id": "tl-1997-sojourner",
+      "year": 1997,
+      "dateLabel": "July 4–6, 1997",
+      "title": "Mars Pathfinder Lands & Sojourner Becomes First Mars Rover",
+      "destination": "Mars",
+      "missionName": "Mars Pathfinder",
+      "summary": "Pathfinder landed on July 4 and Sojourner rolled onto Ares Vallis on July 6, operating for 83 sols before contact ended on September 27, 1997.",
+      "equipmentId": "sojourner-rover",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-2004-mer",
+      "year": 2004,
+      "dateLabel": "January 4 & 25, 2004",
+      "title": "Twin Rovers Spirit and Opportunity Land on Opposite Sides of Mars",
+      "destination": "Mars",
+      "missionName": "Mars Exploration Rovers",
+      "summary": "Spirit (Gusev Crater) and Opportunity (Meridiani Planum) began landmark geologic expeditions that far exceeded their 90-sol plans.",
+      "equipmentId": "spirit-rover",
+      "eventCategory": "Landing"
+    },
+    {
+      "id": "tl-2010-spirit-end",
+      "year": 2010,
+      "dateLabel": "March 22, 2010",
+      "title": "Spirit Sends Final Transmission from Gusev Crater",
+      "destination": "Mars",
+      "missionName": "Spirit (MER-A)",
+      "summary": "Immobilized in soft sand at Troy, Spirit fell silent during Martian winter after 7.73 km of driving; NASA concluded recovery efforts on May 25, 2011.",
+      "equipmentId": "spirit-rover",
+      "eventCategory": "Mission End"
+    },
+    {
+      "id": "tl-2019-opportunity-end",
+      "year": 2019,
+      "dateLabel": "February 13, 2019",
+      "title": "Opportunity Mission Concludes After 45.16 km Traverse",
+      "destination": "Mars",
+      "missionName": "Opportunity (MER-B)",
+      "summary": "Following a planet-encircling dust storm on June 10, 2018 that blocked solar power, NASA formally concluded Opportunity's 5,111-sol mission.",
+      "equipmentId": "opportunity-rover",
+      "eventCategory": "Mission End"
+    }
+  ]
+}

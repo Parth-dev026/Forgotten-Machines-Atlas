@@ -1,0 +1,251 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    background-color: #080d1c;
+    color: #e6edf7;
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #080d1c;
+    color: #e6edf7;
+    letter-spacing: 0.01em;
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible {
+    outline: 2px solid #20b9c9;
+    outline-offset: 2px;
+  }
+}
+
+/* Theme CSS variables for context-aware museum wings */
+:root,
+:root[data-museum-theme="default"] {
+  --museum-bg: #080d1c;
+  --museum-surface: #0d152b;
+  --museum-card: rgba(20, 38, 74, 0.36);
+  --museum-border: #1e3666;
+  --museum-accent: #20b9c9;
+}
+
+:root[data-museum-theme="lunar"] {
+  --museum-bg: #070b16;
+  --museum-surface: #0e1629;
+  --museum-card: rgba(21, 34, 62, 0.42);
+  --museum-border: #2a3b61;
+  --museum-accent: #7cc6fe;
+}
+
+:root[data-museum-theme="mars"] {
+  --museum-bg: #120a0a;
+  --museum-surface: #1c1111;
+  --museum-card: rgba(46, 22, 19, 0.44);
+  --museum-border: #522922;
+  --museum-accent: #eb7d4b;
+}
+
+:root[data-museum-theme="timeline"] {
+  --museum-bg: #060a18;
+  --museum-surface: #0c1329;
+  --museum-card: rgba(18, 30, 68, 0.42);
+  --museum-border: #1f356b;
+  --museum-accent: #f5b041;
+}
+
+/* Museum-matched user-selectable page themes (Observatory Navy stays default) */
+:root[data-page-theme="lunar-slate"] {
+  --museum-bg: #0a0f18;
+  --museum-surface: #121a28;
+  --museum-card: rgba(27, 39, 60, 0.44);
+  --museum-border: #314260;
+  --museum-accent: #7cc6fe;
+  --page-bg: #0a0f18;
+  --page-surface: #121a28;
+  --page-card: #1b273c;
+  --page-border: #314260;
+  --page-primary: #3468bd;
+  --page-accent: #7cc6fe;
+  --page-accent-ink: #0a0f18;
+}
+
+:root[data-page-theme="martian-amber"] {
+  --museum-bg: #140a09;
+  --museum-surface: #1f110f;
+  --museum-card: rgba(49, 26, 22, 0.46);
+  --museum-border: #5a2f26;
+  --museum-accent: #eb7d4b;
+  --page-bg: #140a09;
+  --page-surface: #1f110f;
+  --page-card: #311a16;
+  --page-border: #5a2f26;
+  --page-primary: #b84b27;
+  --page-accent: #eb7d4b;
+  --page-accent-ink: #140a09;
+}
+
+:root[data-page-theme="planetarium-gold"] {
+  --museum-bg: #090b12;
+  --museum-surface: #121622;
+  --museum-card: rgba(28, 34, 52, 0.46);
+  --museum-border: #4a3d24;
+  --museum-accent: #f5b041;
+  --page-bg: #090b12;
+  --page-surface: #121622;
+  --page-card: #1c2234;
+  --page-border: #4a3d24;
+  --page-primary: #34569c;
+  --page-accent: #f5b041;
+  --page-accent-ink: #090b12;
+}
+
+html[data-page-theme]:not([data-page-theme="default"]),
+html[data-page-theme]:not([data-page-theme="default"]) body {
+  background-color: var(--page-bg);
+}
+
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#080D1C\] {
+  background-color: var(--page-bg);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#080D1C\]\/60 {
+  background-color: color-mix(in srgb, var(--page-bg) 60%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#080D1C\]\/65 {
+  background-color: color-mix(in srgb, var(--page-bg) 65%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#080D1C\]\/70 {
+  background-color: color-mix(in srgb, var(--page-bg) 70%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#080D1C\]\/80 {
+  background-color: color-mix(in srgb, var(--page-bg) 80%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#080D1C\]\/85 {
+  background-color: color-mix(in srgb, var(--page-bg) 85%, transparent);
+}
+
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#0D152B\] {
+  background-color: var(--page-surface);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#0D152B\]\/90 {
+  background-color: color-mix(in srgb, var(--page-surface) 90%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#0D152B\]\/95 {
+  background-color: color-mix(in srgb, var(--page-surface) 95%, transparent);
+}
+
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\] {
+  background-color: var(--page-card);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/30 {
+  background-color: color-mix(in srgb, var(--page-card) 30%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/35 {
+  background-color: color-mix(in srgb, var(--page-card) 35%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/40 {
+  background-color: color-mix(in srgb, var(--page-card) 40%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/45 {
+  background-color: color-mix(in srgb, var(--page-card) 45%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/50 {
+  background-color: color-mix(in srgb, var(--page-card) 50%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/60 {
+  background-color: color-mix(in srgb, var(--page-card) 60%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/65 {
+  background-color: color-mix(in srgb, var(--page-card) 65%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#14264A\]\/70 {
+  background-color: color-mix(in srgb, var(--page-card) 70%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:bg-\[\#14264A\]\/60:hover,
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:bg-\[\#14264A\]:hover {
+  background-color: var(--page-card);
+}
+
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#1E3666\],
+html[data-page-theme]:not([data-page-theme="default"]) .divide-\[\#1E3666\] > :not(:last-child) {
+  border-color: var(--page-border);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#1E3666\]\/80,
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#1E3666\]\/50 {
+  border-color: color-mix(in srgb, var(--page-border) 75%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#1E3666\] {
+  background-color: var(--page-border);
+}
+
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#2463C5\] {
+  background-color: var(--page-primary);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#2463C5\],
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:border-\[\#2463C5\]:hover {
+  border-color: var(--page-primary);
+}
+
+html[data-page-theme]:not([data-page-theme="default"]) .text-\[\#20B9C9\],
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:text-\[\#20B9C9\]:hover {
+  color: var(--page-accent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#20B9C9\],
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:bg-\[\#20B9C9\]:hover {
+  background-color: var(--page-accent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .bg-\[\#20B9C9\]\/20 {
+  background-color: color-mix(in srgb, var(--page-accent) 20%, transparent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#20B9C9\],
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:border-\[\#20B9C9\]:hover {
+  border-color: var(--page-accent);
+}
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#20B9C9\]\/70,
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#20B9C9\]\/60,
+html[data-page-theme]:not([data-page-theme="default"]) .border-\[\#20B9C9\]\/55,
+html[data-page-theme]:not([data-page-theme="default"]) .hover\:border-\[\#20B9C9\]\/60:hover {
+  border-color: color-mix(in srgb, var(--page-accent) 70%, transparent);
+}
+
+/* Subtle pinpoint starfield backdrop for deep space atmosphere */
+.space-starfield {
+  background-color: var(--museum-bg, #080d1c);
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, rgba(230, 237, 247, 0.38) 1px, transparent 0),
+    radial-gradient(1px 1px at 28% 72%, rgba(230, 237, 247, 0.22) 1px, transparent 0),
+    radial-gradient(1.5px 1.5px at 44% 31%, rgba(32, 185, 201, 0.35) 1px, transparent 0),
+    radial-gradient(1px 1px at 63% 14%, rgba(230, 237, 247, 0.3) 1px, transparent 0),
+    radial-gradient(1px 1px at 78% 58%, rgba(230, 237, 247, 0.25) 1px, transparent 0),
+    radial-gradient(1.5px 1.5px at 89% 24%, rgba(36, 99, 197, 0.45) 1px, transparent 0),
+    radial-gradient(1px 1px at 93% 82%, rgba(230, 237, 247, 0.28) 1px, transparent 0),
+    radial-gradient(1px 1px at 7% 88%, rgba(230, 237, 247, 0.24) 1px, transparent 0);
+  background-size: 520px 520px;
+  transition: background-color 500ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

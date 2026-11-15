@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forgotten Machines Atlas — The Machines That Made History</title>
+    <meta
+      name="description"
+      content="An interactive educational digital atlas by Team ALPHA Explorers for the 2026 NASA Space Apps Challenge, chronicling NASA's historic robotic spacecraft, landers, rovers, and scientific instruments left on the Moon and Mars."
+    />
+    <meta property="og:title" content="Forgotten Machines Atlas — The Machines That Made History" />
+    <meta
+      property="og:description"
+      content="Explore the history, scientific discoveries, and planetary legacy of NASA spacecraft, rovers, and instruments remaining on the Moon and Mars."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var valid = {
+            default: true,
+            'lunar-slate': true,
+            'martian-amber': true,
+            'planetarium-gold': true
+          };
+          var saved = localStorage.getItem('fma_page_theme_v1');
+          if (!saved || !valid[saved]) {
+            var prefsRaw = localStorage.getItem('fma_museum_theme_prefs_v2');
+            if (prefsRaw) {
+              var prefs = JSON.parse(prefsRaw);
+              if (prefs && valid[prefs.pagePalette]) {
+                saved = prefs.pagePalette;
+              }
+            }
+          }
+          document.documentElement.dataset.pageTheme =
+            saved && valid[saved] ? saved : 'default';
+        } catch (e) {
+          document.documentElement.dataset.pageTheme = 'default';
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#080D1C] text-[#E6EDF7] antialiased selection:bg-[#20B9C9]/25 selection:text-[#E6EDF7]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

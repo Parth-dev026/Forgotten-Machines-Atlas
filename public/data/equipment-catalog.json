@@ -1,0 +1,461 @@
+{
+  "schemaVersion": "1.1.0",
+  "datasetTitle": "Forgotten Machines Atlas — Verified NASA Moon & Mars Equipment Catalog",
+  "lastVerified": "2026-11-13",
+  "primarySources": [
+    "https://nssdc.gsfc.nasa.gov/",
+    "https://science.nasa.gov/",
+    "https://www.nasa.gov/"
+  ],
+  "equipment": [
+    {
+      "id": "apollo-lm-descent-stages",
+      "catalogCode": "FMA-MOON-01",
+      "name": "Apollo Lunar Module Descent Stages",
+      "missionName": "Apollo 11, 12, 14, 15, 16 & 17",
+      "destination": "Moon",
+      "landingSite": "Six lunar maria and highland sites (beginning at Mare Tranquillitatis)",
+      "category": "Lander & Descent Stage",
+      "launchDate": "July 16, 1969 (Apollo 11) — December 7, 1972 (Apollo 17)",
+      "landingDate": "July 20, 1969 (Apollo 11 Eagle) — December 11, 1972 (Apollo 17 Challenger)",
+      "missionDuration": "21h 36m surface stay (Apollo 11) to 75h surface stay (Apollo 17)",
+      "finalStatusSummary": "All six descent stages were intentionally left behind on the lunar surface as single-use launch platforms for the returning crewed ascent stages.",
+      "surfaceStatus": "Intentionally Left Behind",
+      "surfacePresence": "Confirmed via Lunar Reconnaissance Orbiter (LRO) imagery",
+      "statusClarification": "Intentionally left behind by design: each octagonal descent stage served as the landing base and launch platform for its upper ascent stage. High-resolution Lunar Reconnaissance Orbiter Camera (LROC) images confirm all six descent stages remain standing at their landing sites, though detailed internal material wear is not directly sampled.",
+      "imageUrl": "/images/moon_descent_stage_only.jpg",
+      "imageCaption": "Archival mission plate — Octagonal Apollo Lunar Module descent stage remaining on lunar regolith after ascent stage departure.",
+      "shortSummary": "Octagonal landing bases of NASA's crewed Apollo missions, permanently left on the Moon after launching astronauts back to lunar orbit.",
+      "historicalBackground": "Developed for the Apollo program, the Lunar Module was the first crewed spacecraft engineered solely for flight in the vacuum of space. Dividing the vehicle into a descent stage and an ascent stage reduced launch mass: astronauts left the descent stage, landing gear, and empty descent propellant tanks on the Moon when firing the ascent engine to return to lunar orbit.",
+      "scientificPurpose": "Delivered human crews, surface experiment packages, and sample-collection hardware safely onto lunar maria and highland sites while housing the Descent Propulsion System, landing radar, and exterior equipment bays.",
+      "importantDiscoveries": [
+        "Enabled the collection and return of 382 kilograms of lunar rocks and core samples across six Apollo landing sites, establishing the impact-cratering chronology of the early Solar System.",
+        "Provided geological samples supporting the giant-impact origin model of the Earth-Moon system.",
+        "Demonstrated precision powered descent and human-piloted hazard avoidance in an airless, low-gravity environment."
+      ],
+      "whatRemainsOnSurface": "All six descent stages (Eagle, Intrepid, Antares, Falcon, Orion, and Challenger) remain upright at their landing sites with landing legs, descent engine bells, and commemorative plaques.",
+      "discardedComponents": "Five Apollo ascent stages (Apollo 12, 14, 15, 16, and 17) were intentionally impacted into the Moon after crew transfer to provide calibrated seismic energy for ALSEP seismometers. Apollo 11 Eagle's ascent stage was jettisoned in lunar orbit; its ultimate fate/impact site remains unconfirmed.",
+      "whyItMattersToday": "These six landing bases represent humanity's earliest off-world archaeological heritage sites and provide visual landmarks for NASA Artemis landing-site preservation guidelines.",
+      "uncertainties": "While LROC orbital photography confirms the intact silhouettes and shadow geometry of all six descent stages, the exact microscopic degradation of Kapton thermal blankets and aluminum struts after >50 years of lunar exposure has not been measured in situ.",
+      "nasaSources": [
+        {
+          "label": "Apollo 11 Lunar Module (Eagle, 1969-059C) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Apollo 11 Mission Overview — NASA Science",
+          "url": "https://science.nasa.gov/mission/apollo-11/",
+          "source": "NASA Science"
+        },
+        {
+          "label": "The Apollo Program — NASA Science",
+          "url": "https://science.nasa.gov/mission/apollo/",
+          "source": "NASA Science"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "lunar-roving-vehicles",
+      "catalogCode": "FMA-MOON-02",
+      "name": "Lunar Roving Vehicles (LRV-1, LRV-2, LRV-3)",
+      "missionName": "Apollo 15, Apollo 16 & Apollo 17",
+      "destination": "Moon",
+      "landingSite": "Hadley-Apennine, Descartes Highlands & Taurus-Littrow Valley",
+      "category": "Rover",
+      "launchDate": "July 26, 1971 (Apollo 15) — December 7, 1972 (Apollo 17)",
+      "landingDate": "July 30, 1971 (Apollo 15) — December 11, 1972 (Apollo 17)",
+      "missionDuration": "Driven across 3 EVAs per mission (~3 Earth days each; LRV-1 first driven July 31, 1971)",
+      "finalStatusSummary": "All three electric rovers were intentionally left parked on the Moon at the conclusion of each mission so their remote TV cameras could film Lunar Module liftoff.",
+      "surfaceStatus": "Intentionally Left Behind",
+      "surfacePresence": "Confirmed via Lunar Reconnaissance Orbiter (LRO) imagery",
+      "statusClarification": "Intentionally left behind: each LRV was parked at a planned distance ('VIP site') away from its Lunar Module so Earth-controlled television cameras could capture ascent liftoff. LROC orbital imagery confirms all three parked rovers remain at their sites.",
+      "imageUrl": "/images/moon_lunar_rover.jpg",
+      "imageCaption": "Archival mission plate — Apollo Lunar Roving Vehicle parked on lunar regolith with wire-mesh wheels and high-gain umbrella antenna.",
+      "shortSummary": "Battery-powered electric vehicles that expanded astronaut geological range across lunar mountains, rilles, and crater rims.",
+      "historicalBackground": "Built by Boeing and Delco Electronics, each Lunar Roving Vehicle weighed roughly 210 kilograms on Earth and folded into Quadrant 1 of the Apollo Lunar Module descent stage. Powered by two non-rechargeable 36-volt silver-zinc batteries and four 0.25-horsepower wheel hub motors, it carried astronauts, tools, and rock samples across rugged terrain.",
+      "scientificPurpose": "Transformed astronauts from foot-bound explorers into mobile field geologists, greatly extending traverse distances from the Lunar Module and enabling multi-site geological sampling.",
+      "importantDiscoveries": [
+        "LRV-1 (Apollo 15) drove 27.8 km around Hadley Rille, enabling collection of diverse mare and highland rocks including the anorthosite 'Genesis Rock.'",
+        "LRV-2 (Apollo 16) drove 26.7 km in the Descartes Highlands, revealing impact breccias rather than the expected volcanic terrain.",
+        "LRV-3 (Apollo 17) drove 35.9 km across Taurus-Littrow Valley—including a record 20.1 km single traverse—supporting collection of volcanic orange glass beads."
+      ],
+      "whatRemainsOnSurface": "All three rovers remain intact at their final parking sites with woven wire-mesh tires, folded aluminum frames, dead-reckoning navigation consoles, and Lunar Communications Relay Units.",
+      "discardedComponents": "Depleted silver-zinc primary batteries, expended camera film magazines, and protective thermal dust covers left on or beside the vehicles.",
+      "whyItMattersToday": "The LRVs pioneered electric off-world mobility in vacuum and abrasive lunar dust—engineering lessons directly informing NASA's Artemis Lunar Terrain Vehicle (LTV).",
+      "uncertainties": "While LRO imagery confirms the rovers remain parked in place, the exact condition of their silver-zinc batteries, wire insulation, and optical lenses after >50 years of lunar temperature swings is uncertain.",
+      "nasaSources": [
+        {
+          "label": "Apollo 15 Lunar Module & LRV-1 (1971-063C) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Apollo 16 Lunar Module & LRV-2 (1972-031C) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Apollo 17 Mission Overview — NASA Science",
+          "url": "https://science.nasa.gov/mission/apollo-17/",
+          "source": "NASA Science"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "alsep-packages",
+      "catalogCode": "FMA-MOON-03",
+      "name": "ALSEP Scientific Packages",
+      "missionName": "Apollo 12, 14, 15, 16 & 17",
+      "destination": "Moon",
+      "landingSite": "Five distributed geophysical stations across the lunar nearside",
+      "category": "Scientific Package",
+      "launchDate": "November 14, 1969 (Apollo 12) — December 7, 1972 (Apollo 17)",
+      "landingDate": "November 19, 1969 (Apollo 12) — December 11, 1972 (Apollo 17)",
+      "missionDuration": "Network operated until September 30, 1977 (nearly 8 years for Apollo 12)",
+      "finalStatusSummary": "Operating ALSEP stations were commanded off on September 30, 1977 due to budget constraints; their exact present internal hardware condition is uncertain.",
+      "surfaceStatus": "Condition Uncertain",
+      "surfacePresence": "Stations resolved in LRO imagery; internal hardware state unverified since 1977",
+      "statusClarification": "Current physical condition uncertain: deployed permanently on the Moon after Apollo 11's smaller solar-powered EASEP precursor. NASA shut down remaining active ALSEP transmitters on September 30, 1977. After nearly five decades of +120 °C to -130 °C lunar day-night thermal cycles without telemetry, the condition of internal electronics and sensors cannot be verified.",
+      "imageUrl": "/images/moon_alsep_station.jpg",
+      "imageCaption": "Archival mission plate — Deployed ALSEP station showing SNAP-27 radioisotope generator and ribbon cables connected to geophysical instruments.",
+      "shortSummary": "Nuclear-powered geophysical observatories that transmitted continuous seismic, magnetic, and solar-wind data from the Moon until 1977.",
+      "historicalBackground": "Whereas Apollo 11 deployed the smaller, solar-powered Early Apollo Scientific Experiments Package (EASEP), Apollos 12, 14, 15, 16, and 17 deployed full ALSEP arrays powered by SNAP-27 plutonium-238 radioisotope thermoelectric generators (RTGs), allowing autonomous operation through two-week lunar nights.",
+      "scientificPurpose": "Established a multi-station lunar geophysical network measuring shallow and deep moonquakes, surface heat flow, lunar ionosphere composition, magnetic fields, and micrometeoroid flux.",
+      "importantDiscoveries": [
+        "Detected four distinct classes of moonquakes (deep tidal, shallow tectonic, thermal, and meteorite impacts), proving the Moon is seismically active.",
+        "Constrained lunar crustal thickness and revealed evidence for a partially molten deep lunar mantle zone.",
+        "Measured surface heat flow (Apollos 15 and 17; Apollo 16's heat flow cable was accidentally broken during deployment) and tenuous lunar exosphere gases."
+      ],
+      "whatRemainsOnSurface": "Five central stations, SNAP-27 RTG casks, passive and active seismometers, magnetometers, and ribbon cables remain at the Apollo 12, 14, 15, 16, and 17 sites (alongside passive Laser Ranging Retroreflectors from Apollo 11, 14, and 15, which remain passive optical targets for Earth-based lasers).",
+      "discardedComponents": "Spent mortar packages and seismic thumper charges used for active seismic profiling experiments, plus protective transport frames and deployment tools.",
+      "whyItMattersToday": "Recovered archival ALSEP magnetic tapes continue to be digitized and reanalyzed with modern seismic methods, while the passive retroreflectors remain active measurement tools for lunar orbital dynamics.",
+      "uncertainties": "Because telemetry ended in 1977, the current structural and electronic condition of the central stations, RTG seals, and ribbon cabling is uncertain and awaits future robotic or crewed surface inspection.",
+      "nasaSources": [
+        {
+          "label": "Apollo Lunar Surface Experiments Package (ALSEP) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_alsep.html",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Apollo 12 Mission Overview — NASA Science",
+          "url": "https://science.nasa.gov/mission/apollo-12/",
+          "source": "NASA Science"
+        },
+        {
+          "label": "Apollo 14 Mission Overview — NASA Science",
+          "url": "https://science.nasa.gov/mission/apollo-14/",
+          "source": "NASA Science"
+        }
+      ]
+    },
+    {
+      "id": "surveyor-1",
+      "catalogCode": "FMA-MOON-04",
+      "name": "Surveyor 1 Lander",
+      "missionName": "Surveyor 1",
+      "destination": "Moon",
+      "landingSite": "Oceanus Procellarum (southwest region, near Flamsteed P)",
+      "category": "Lander & Descent Stage",
+      "launchDate": "May 30, 1966",
+      "landingDate": "June 2, 1966",
+      "missionDuration": "Primary ops June 2 – July 14, 1966; final engineering contact January 7, 1967",
+      "finalStatusSummary": "First U.S. soft landing on the Moon; ceased transmissions in January 1967, and exact present physical condition is uncertain.",
+      "surfaceStatus": "Condition Uncertain",
+      "surfacePresence": "Landing site confirmed via LRO imagery; detailed structural integrity unresolved",
+      "statusClarification": "Current physical condition uncertain: Surveyor 1 ceased final engineering contact on January 7, 1967 after surviving multiple lunar nights. While Lunar Reconnaissance Orbiter photography confirms the lander sits at its landing site, the modern condition of its thin-walled frame, solar array, and electronics after 60 years cannot be verified directly.",
+      "imageUrl": "/images/moon_surveyor_1.jpg",
+      "imageCaption": "Archival mission plate — Surveyor 1 standing level on the flat mare plain of Oceanus Procellarum without a surface sampler arm.",
+      "shortSummary": "Pathfinding robotic lander that proved the lunar surface could safely support the weight of an Apollo crewed spacecraft.",
+      "historicalBackground": "Before Apollo could land astronauts on the Moon, engineers needed direct proof that lunar dust would not swallow a heavy spacecraft. Launched on an Atlas-Centaur rocket, Surveyor 1 braked with a solid retrorocket and vernier engines to achieve the United States' first soft landing on another celestial body.",
+      "scientificPurpose": "Demonstrated automated radar-guided terminal descent and soft landing while evaluating regolith bearing strength, radar reflectivity, and surface topography.",
+      "importantDiscoveries": [
+        "Transmitted 11,240 high-resolution television images of the lunar surface and horizon.",
+        "Proved the lunar regolith has sufficient bearing strength to support heavy crewed Apollo landers without sinking.",
+        "Measured surface thermal and radar reflection properties needed to calibrate Apollo landing systems."
+      ],
+      "whatRemainsOnSurface": "The tubular aluminum tripod airframe, three crushable footpads, vertical solar panel mast, planar antenna, and television camera assembly remain stationary in Oceanus Procellarum.",
+      "discardedComponents": "The solid-propellant main retrorocket casing was jettisoned roughly 11 km above the lunar surface prior to final vernier landing and impacted separately.",
+      "whyItMattersToday": "Surveyor 1 retired the greatest engineering unknown of the Moon race—whether human landers could touch down safely—and pioneered closed-loop radar-guided planetary landing.",
+      "uncertainties": "Although LRO has imaged the lander and its shadow on the mare plain, orbital resolution cannot verify whether thermal fatigue, battery leakage, or micrometeoroids have degraded individual components.",
+      "nasaSources": [
+        {
+          "label": "Surveyor 1 (1966-045A) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-045A",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Surveyor 1 Mission Profile — NASA Science",
+          "url": "https://science.nasa.gov/mission/surveyor-1/",
+          "source": "NASA Science"
+        }
+      ]
+    },
+    {
+      "id": "surveyor-3",
+      "catalogCode": "FMA-MOON-05",
+      "name": "Surveyor 3 Lander",
+      "missionName": "Surveyor 3 (Revisited by Apollo 12)",
+      "destination": "Moon",
+      "landingSite": "Oceanus Procellarum (inner slope of Surveyor Crater)",
+      "category": "Lander & Descent Stage",
+      "launchDate": "April 17, 1967",
+      "landingDate": "April 20, 1967",
+      "missionDuration": "Active telemetry until May 3, 1967; physically inspected November 19–20, 1969",
+      "finalStatusSummary": "Stopped operating in May 1967; physically inspected by Apollo 12 astronauts in 1969, with its main airframe remaining inside Surveyor Crater.",
+      "surfaceStatus": "Stopped Operating",
+      "surfacePresence": "Confirmed on surface; visited in person by Apollo 12 & imaged by LRO",
+      "statusClarification": "Stopped operating: transmitted science data until lunar sunset on May 3, 1967 and never responded after the lunar night. Unique among all planetary robots, Surveyor 3 was physically examined by Apollo 12 astronauts Pete Conrad and Alan Bean 31 months later; its main structure remains in Surveyor Crater.",
+      "imageUrl": "/images/moon_surveyor_3.jpg",
+      "imageCaption": "Archival mission plate — Surveyor 3 on the inner slope of Surveyor Crater with its pantograph soil mechanics sampler scoop extended.",
+      "shortSummary": "Robotic trench-digging lander famously visited by Apollo 12 astronauts two and a half years after touchdown.",
+      "historicalBackground": "During touchdown on April 20, 1967, Surveyor 3's vernier engines did not shut down automatically upon first contact, causing the lander to bounce twice across the inner slope of a shallow crater before settling at a tilt. Despite the rough landing, it operated successfully for two weeks.",
+      "scientificPurpose": "Carried a pantograph soil mechanics surface sampler scoop—the first on the Moon—to dig trenches, test regolith cohesion, and crush small rocks under view of its television camera.",
+      "importantDiscoveries": [
+        "Performed the first robotic trenching and mechanical soil-bearing tests on the Moon using its surface sampler scoop.",
+        "Returned 6,315 television images (6,326 frames in NSSDCA summaries) prior to lunar sunset.",
+        "After Apollo 12 returned its camera and scoop in November 1969, laboratory analysis showed how 31 months of lunar vacuum, solar radiation, and micrometeoroids affected metals, paint, and optics."
+      ],
+      "whatRemainsOnSurface": "The aluminum tripod airframe, three landing legs, solar panel, electronics compartments, and remaining wiring remain inside Surveyor Crater beside the footprints of the Apollo 12 crew.",
+      "discardedComponents": "Main solid retrorocket casing jettisoned prior to touchdown; television camera, soil sampler scoop, and sample tubing removed by Apollo 12 astronauts and returned to Earth.",
+      "whyItMattersToday": "Surveyor 3 remains the only spacecraft on another celestial body ever examined in person by astronauts and partially returned for long-duration space exposure forensics.",
+      "uncertainties": "While astronauts documented its condition in 1969 and LRO continues to image the crater site, its physical weathering in the decades since Apollo 12 departed has not been directly inspected.",
+      "nasaSources": [
+        {
+          "label": "Surveyor 3 (1967-035A) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Surveyor 3 Mission Profile — NASA Science",
+          "url": "https://science.nasa.gov/mission/surveyor-3/",
+          "source": "NASA Science"
+        },
+        {
+          "label": "Apollo 12 Mission Overview — NASA Science",
+          "url": "https://science.nasa.gov/mission/apollo-12/",
+          "source": "NASA Science"
+        }
+      ]
+    },
+    {
+      "id": "viking-1-lander",
+      "catalogCode": "FMA-MARS-01",
+      "name": "Viking 1 Lander",
+      "missionName": "Viking 1 (Thomas Mutch Memorial Station)",
+      "destination": "Mars",
+      "landingSite": "Chryse Planitia (Western Slope / Golden Plain)",
+      "category": "Lander & Descent Stage",
+      "launchDate": "August 20, 1975",
+      "landingDate": "July 20, 1976",
+      "missionDuration": "2,245 sols (final contact November 11, 1982; mission ended November 13, 1982)",
+      "finalStatusSummary": "Stopped operating in November 1982 after an erroneous uplink command mispointed its antenna; remains intact on Chryse Planitia.",
+      "surfaceStatus": "Stopped Operating",
+      "surfacePresence": "Confirmed via Mars Reconnaissance Orbiter (MRO) HiRISE imagery",
+      "statusClarification": "Stopped operating: operated on Mars for more than six Earth years—far beyond its 90-day prime mission—until a November 1982 command update inadvertently overwrote antenna-pointing software. MRO HiRISE orbital images confirm the lander remains upright at Chryse Planitia.",
+      "imageUrl": "/images/mars_viking_1.jpg",
+      "imageCaption": "Archival mission plate — Viking 1 Lander resting on rocky rust-red plains of Chryse Planitia with meteorology boom and S-band dish.",
+      "shortSummary": "First U.S. spacecraft to land safely and conduct long-term science on Mars, operating for more than six Earth years.",
+      "historicalBackground": "Arriving at Mars alongside the Viking 1 Orbiter, the lander entered the Martian atmosphere inside a protective aeroshell, deployed a parachute, and fired throttleable hydrazine engines to touch down at Chryse Planitia on the seventh anniversary of Apollo 11.",
+      "scientificPurpose": "Searched for microbial metabolic activity in Martian soil, measured atmospheric composition and surface meteorology, monitored seismic activity (though its seismometer failed to uncage), and captured panoramic surface images.",
+      "importantDiscoveries": [
+        "Transmitted the first clear surface photographs of Mars, revealing a dusty iron-oxide plain strewn with basalt boulders beneath a pinkish-butterscotch sky.",
+        "Conducted automated biology and gas chromatograph-mass spectrometer experiments revealing chemically reactive, oxidizing surface soils.",
+        "Recorded over six years of seasonal atmospheric pressure cycles driven by carbon dioxide condensing at the Martian polar caps."
+      ],
+      "whatRemainsOnSurface": "The hexagonal lander chassis, two plutonium-238 RTG power units, sample arm, meteorology boom, cameras, and S-band dish antenna remain stationary at Chryse Planitia.",
+      "discardedComponents": "The 3.5-meter diameter heat shield (aeroshell) and backshell/parachute assembly were jettisoned during atmospheric descent and lie separately on Chryse Planitia.",
+      "whyItMattersToday": "Viking 1 proved long-duration robotic surface science on Mars was achievable and established the foundational baseline for Martian soil chemistry and meteorology.",
+      "uncertainties": "Although HiRISE confirms the lander's continued presence on Chryse Planitia, the degree of dust accumulation and mechanical wear after over 40 years on Mars cannot be directly measured from orbit.",
+      "nasaSources": [
+        {
+          "label": "Viking 1 Lander (1975-075C) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Viking 1 Mission Profile — NASA Science",
+          "url": "https://science.nasa.gov/mission/viking-1/",
+          "source": "NASA Science"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "viking-2-lander",
+      "catalogCode": "FMA-MARS-02",
+      "name": "Viking 2 Lander",
+      "missionName": "Viking 2 (Gerald Soffen Memorial Station)",
+      "destination": "Mars",
+      "landingSite": "Utopia Planitia",
+      "category": "Lander & Descent Stage",
+      "launchDate": "September 9, 1975",
+      "landingDate": "September 3, 1976",
+      "missionDuration": "1,281 sols (operated until April 11, 1980)",
+      "finalStatusSummary": "Stopped operating in April 1980 when its batteries ceased holding charge; remains on Utopia Planitia.",
+      "surfaceStatus": "Stopped Operating",
+      "surfacePresence": "Confirmed via Mars Reconnaissance Orbiter (MRO) HiRISE imagery",
+      "statusClarification": "Stopped operating: operated continuously for more than three and a half Earth years on the northern plains until battery failure ended transmissions on April 11, 1980. Imaged from orbit by Mars Reconnaissance Orbiter.",
+      "imageUrl": "/images/mars_viking_2.jpg",
+      "imageCaption": "Archival mission plate — Viking 2 Lander resting slightly tilted amid dark basalt boulders and thin seasonal frost at Utopia Planitia.",
+      "shortSummary": "Northern-plains twin to Viking 1 that photographed seasonal Martian water-ice frost and operated its seismometer on Mars.",
+      "historicalBackground": "Landing roughly 6,500 kilometers northeast of Viking 1 at 47.6° N latitude in Utopia Planitia, Viking 2 came to rest with one footpad atop a boulder—tilting the lander roughly 8 degrees—yet all scientific instruments functioned smoothly.",
+      "scientificPurpose": "Compared a higher-latitude northern Martian plain against Viking 1's equatorial site, investigating meteorology, seasonal frost, soil chemistry, and seismic activity.",
+      "importantDiscoveries": [
+        "Photographed thin coatings of winter water-ice frost forming across the rocks and soil of Utopia Planitia.",
+        "Successfully uncaged its seismometer (unlike Viking 1), recording Martian wind vibrations and seismic background data.",
+        "Confirmed broad chemical similarity between widely separated Martian northern and equatorial plains."
+      ],
+      "whatRemainsOnSurface": "The complete Viking 2 Lander chassis, RTG power units, sample arm, and weather mast remain stationary at Utopia Planitia.",
+      "discardedComponents": "Entry heat shield, parachute, and backshell jettisoned during atmospheric descent and resting nearby on Utopia Planitia.",
+      "whyItMattersToday": "Viking 2's multi-year northern seasonal climate record and frost imagery helped shape later northern-plains missions including NASA's Phoenix Lander.",
+      "uncertainties": "While HiRISE confirms Viking 2's location on Utopia Planitia, fine-scale surface weathering and seasonal frost effects on its inactive hardware remain unmeasured in situ.",
+      "nasaSources": [
+        {
+          "label": "Viking 2 Lander (1975-083C) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Viking 2 Mission Profile — NASA Science",
+          "url": "https://science.nasa.gov/mission/viking-2/",
+          "source": "NASA Science"
+        }
+      ]
+    },
+    {
+      "id": "sojourner-rover",
+      "catalogCode": "FMA-MARS-03",
+      "name": "Sojourner Rover",
+      "missionName": "Mars Pathfinder",
+      "destination": "Mars",
+      "landingSite": "Ares Vallis (Carl Sagan Memorial Station)",
+      "category": "Rover",
+      "launchDate": "December 4, 1996",
+      "landingDate": "July 4, 1997 (rolled onto surface July 6, 1997)",
+      "missionDuration": "83 sols (last contact September 27, 1997)",
+      "finalStatusSummary": "Stopped communicating in September 1997; at 65 cm in length, its exact present physical condition cannot be resolved from orbit and remains uncertain.",
+      "surfaceStatus": "Condition Uncertain",
+      "surfacePresence": "Pathfinder site imaged from orbit; 65 cm rover too small to resolve clearly",
+      "statusClarification": "Current physical condition uncertain: the final data transmission from Mars Pathfinder occurred on September 27, 1997, likely after battery failure in Martian cold. Because Sojourner measures only 65 cm long, even high-resolution Mars Reconnaissance Orbiter HiRISE imagery cannot clearly resolve the rover's individual physical state.",
+      "imageUrl": "/images/mars_sojourner_rover.jpg",
+      "imageCaption": "Archival mission plate — Six-wheeled Sojourner rover operating near basalt boulders on Ares Vallis.",
+      "shortSummary": "The first wheeled robotic vehicle to drive across Mars, proving mobile geology and low-cost airbag landings.",
+      "historicalBackground": "Weighing 10.6 kilograms on Earth, Sojourner rolled down a deployment ramp from the Mars Pathfinder lander onto Ares Vallis—an ancient flood outflow plain—on July 6, 1997, two days after Pathfinder's airbag-cushioned bounce landing.",
+      "scientificPurpose": "Demonstrated autonomous hazard-avoidance mobility, six-wheel rocker-bogie suspension, and in-situ elemental rock chemistry using an Alpha Proton X-Ray Spectrometer (APXS).",
+      "importantDiscoveries": [
+        "Traveled approximately 100 meters around the Pathfinder lander, analyzing boulders nicknamed Barnacle Bill, Yogi, and Scooby-Doo.",
+        "Measured silica-rich rock compositions and observed rounded pebbles and conglomerates consistent with past liquid water flow.",
+        "Validated the six-wheel rocker-bogie mobility system later scaled up for Spirit, Opportunity, Curiosity, and Perseverance."
+      ],
+      "whatRemainsOnSurface": "Sojourner remained parked beside the petal-opened Carl Sagan Memorial Station lander at the end of operations in September 1997.",
+      "discardedComponents": "The Pathfinder cruise stage, entry heat shield, parachute, backshell, and deflated landing airbags were discarded during entry, descent, and landing across Ares Vallis.",
+      "whyItMattersToday": "Every subsequent NASA Mars rover descends directly from Sojourner's mobility suspension and autonomous navigation architecture.",
+      "uncertainties": "At ~65 cm in length, Sojourner falls near or below the unambiguous identification threshold of orbital cameras; whether it is heavily dust-buried or exposed today is uncertain.",
+      "nasaSources": [
+        {
+          "label": "Sojourner / Pathfinder Rover (MESURPR) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Mars Pathfinder Lander (1996-068A) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Mars Pathfinder — NASA Science",
+          "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+          "source": "NASA Science"
+        }
+      ]
+    },
+    {
+      "id": "spirit-rover",
+      "catalogCode": "FMA-MARS-04",
+      "name": "Spirit Rover (MER-A)",
+      "missionName": "Mars Exploration Rover — Spirit",
+      "destination": "Mars",
+      "landingSite": "Gusev Crater (Columbia Hills / Troy)",
+      "category": "Rover",
+      "launchDate": "June 10, 2003",
+      "landingDate": "January 4, 2004",
+      "missionDuration": "2,208 sols operational (7.73 km driven; last contact March 22, 2010; mission ended May 25, 2011)",
+      "finalStatusSummary": "Stopped operating after becoming immobilized in soft sand at 'Troy' in 2009 and losing power during Martian winter in March 2010.",
+      "surfaceStatus": "Stopped Operating",
+      "surfacePresence": "Confirmed via Mars Reconnaissance Orbiter (MRO) HiRISE imagery",
+      "statusClarification": "Stopped operating: after driving 7.73 kilometers across Gusev Crater, Spirit became trapped in soft sulfate sand in 2009 and could not angle its solar arrays toward the winter sun, sending its final signal on March 22, 2010. NASA ended recovery efforts on May 25, 2011; HiRISE imagery confirms Spirit remains in place.",
+      "imageUrl": "/images/mars_spirit_rover.jpg",
+      "imageCaption": "Archival mission plate — Spirit rover resting on dusty iron-oxide terrain in Gusev Crater with panoramic camera mast deployed.",
+      "shortSummary": "Geologist rover that climbed Husband Hill and uncovered compelling evidence of ancient hydrothermal vents and hot springs on Mars.",
+      "historicalBackground": "Designed for a 90-sol prime mission, Spirit operated for more than six Earth years. Even after its right-front wheel failed in 2006, engineers drove the rover backward—inadvertently dragging a trench that exposed bright, nearly pure silica soil.",
+      "scientificPurpose": "Served as a robotic field geologist equipped with a Rock Abrasion Tool, microscopic imager, Mössbauer and alpha particle X-ray spectrometers, and panoramic cameras to search for past habitable environments.",
+      "importantDiscoveries": [
+        "Uncovered nearly pure silica deposits near Home Plate—strong evidence of ancient hydrothermal vents or hot springs that could have supported microbial life.",
+        "Identified magnesium-iron carbonate outcrops ('Comanche') pointing to ancient neutral-to-alkaline liquid water.",
+        "Captured time-lapse imagery of Martian dust devils crossing Gusev Crater, which periodically swept dust from its solar arrays."
+      ],
+      "whatRemainsOnSurface": "Spirit rests permanently angled at 'Troy' on the western flank of Home Plate with its six wheels, solar wings, and science arm.",
+      "discardedComponents": "Cruise stage, entry heat shield, backshell, parachute, and deflated airbag landing petal platform remain distributed across Gusev Crater.",
+      "whyItMattersToday": "Spirit established that ancient Mars hosted hydrothermal hot-spring environments—directly guiding site-selection priorities for later astrobiology missions.",
+      "uncertainties": "While orbital imaging verifies Spirit's exact resting place, the internal condition of its unheated electronics after over a decade of Martian winters cannot be directly measured.",
+      "nasaSources": [
+        {
+          "label": "Mars Exploration Rover Spirit (2003-027A) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Spirit Rover — NASA Science",
+          "url": "https://science.nasa.gov/mission/mer-spirit/",
+          "source": "NASA Science"
+        }
+      ]
+    },
+    {
+      "id": "opportunity-rover",
+      "catalogCode": "FMA-MARS-05",
+      "name": "Opportunity Rover (MER-B)",
+      "missionName": "Mars Exploration Rover — Opportunity",
+      "destination": "Mars",
+      "landingSite": "Meridiani Planum (Perseverance Valley, Endeavour Crater rim)",
+      "category": "Rover",
+      "launchDate": "July 7, 2003",
+      "landingDate": "January 25, 2004",
+      "missionDuration": "5,111 sols operational (45.16 km driven; last contact June 10, 2018; mission ended February 13, 2019)",
+      "finalStatusSummary": "Stopped operating after a planet-encircling dust storm blocked sunlight in June 2018; remains stationary in Perseverance Valley.",
+      "surfaceStatus": "Stopped Operating",
+      "surfacePresence": "Confirmed via Mars Reconnaissance Orbiter (MRO) HiRISE imagery",
+      "statusClarification": "Stopped operating: last communicated on June 10, 2018 when a severe global dust storm darkened skies over Meridiani Planum. After more than 1,000 recovery commands went unanswered, NASA officially concluded the mission on February 13, 2019. MRO HiRISE imagery confirms Opportunity in Perseverance Valley.",
+      "imageUrl": "/images/mars_opportunity_rover.jpg",
+      "imageCaption": "Archival mission plate — Opportunity rover positioned along layered crater rim terrain at Meridiani Planum.",
+      "shortSummary": "Record-breaking marathon rover that drove 45.16 kilometers across Mars over nearly fifteen years, proving ancient liquid water once soaked Meridiani Planum.",
+      "historicalBackground": "Landing inside Eagle Crater on January 25, 2004, Opportunity exceeded its 90-sol prime mission by more than fifty-five times, traversing Eagle, Endurance, Victoria, and Endeavour craters over nearly 15 Earth years.",
+      "scientificPurpose": "Investigated sedimentary rock strata, mineral chemistry, and ancient aqueous history across Meridiani Planum.",
+      "importantDiscoveries": [
+        "Discovered iron-rich hematite spherules ('blueberries') and sulfate-rich cross-bedded sandstones formed in ancient liquid water.",
+        "Identified clay minerals and gypsum mineral veins along the rim of Endeavour Crater, pointing to ancient neutral-pH freshwater environments.",
+        "Set an off-world driving record of 45.16 kilometers (28.06 miles) across 5,111 Martian sols."
+      ],
+      "whatRemainsOnSurface": "Opportunity rests upright in Perseverance Valley on the western rim of Endeavour Crater beneath Martian dust.",
+      "discardedComponents": "Cruise stage, entry heat shield (which Opportunity famously inspected and photographed in 2004), parachute, backshell, and lander petal platform.",
+      "whyItMattersToday": "Opportunity transformed our understanding of Mars from a static desert into a world with a prolonged watery past and set a benchmark for robotic mission endurance.",
+      "uncertainties": "Orbital photography confirms Opportunity's stationary resting location in Perseverance Valley, while the exact level of dust burial on its solar panels and internal battery degradation remain unmeasured in situ.",
+      "nasaSources": [
+        {
+          "label": "Mars Exploration Rover Opportunity (2003-032A) — NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A",
+          "source": "NASA NSSDCA"
+        },
+        {
+          "label": "Opportunity Rover — NASA Science",
+          "url": "https://science.nasa.gov/mission/mer-opportunity/",
+          "source": "NASA Science"
+        }
+      ],
+      "featured": true
+    }
+  ]
+}

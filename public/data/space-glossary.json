@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "NASA Educational Space Exploration Glossary",
+  "lastVerified": "2026-11-13",
+  "primarySources": [
+    "https://science.nasa.gov/glossary/",
+    "https://www.nasa.gov/",
+    "https://nssdc.gsfc.nasa.gov/"
+  ],
+  "terms": [
+    {
+      "id": "aeroshell",
+      "term": "Aeroshell",
+      "category": "Spacecraft & Propulsion",
+      "definition": "A protective, blunt-body structural shell that surrounds a spacecraft—such as a planetary lander or rover—to shield it from intense aerodynamic heating and pressure forces during high-speed entry into a planet's atmosphere.",
+      "atlasContext": "Viking 1, Viking 2, Mars Pathfinder, Spirit, and Opportunity all jettisoned their entry aeroshells (heat shields and backshells) during Martian atmospheric descent.",
+      "relatedEquipment": [
+        { "id": "viking-1-lander", "name": "Viking 1 Lander" },
+        { "id": "opportunity-rover", "name": "Opportunity Rover (MER-B)" }
+      ],
+      "sourceLabel": "NASA Science & JPL Entry Systems",
+      "sourceUrl": "https://science.nasa.gov/glossary/"
+    },
+    {
+      "id": "alsep",
+      "term": "ALSEP (Apollo Lunar Surface Experiments Package)",
+      "category": "Instruments & Operations",
+      "definition": "A suite of geophysical scientific instruments deployed by Apollo 12, 14, 15, 16, and 17 astronauts to monitor moonquakes, magnetic fields, heat flow, and the tenuous lunar environment after crews returned to Earth.",
+      "atlasContext": "Powered by SNAP-27 radioisotope generators, operating ALSEP stations transmitted lunar science data until NASA shut down the network on September 30, 1977.",
+      "relatedEquipment": [
+        { "id": "alsep-packages", "name": "ALSEP Scientific Packages" }
+      ],
+      "sourceLabel": "NASA NSSDCA ALSEP Archive",
+      "sourceUrl": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_alsep.html"
+    },
+    {
+      "id": "apxs",
+      "term": "Alpha Particle X-Ray Spectrometer (APXS)",
+      "category": "Instruments & Operations",
+      "definition": "A contact science instrument placed directly against planetary rocks and soils that uses alpha particles and X-rays to measure the abundance of major and minor rock-forming chemical elements.",
+      "atlasContext": "Carried on the Sojourner rover to analyze Martian boulders such as Barnacle Bill and Yogi, and flown in upgraded forms on Spirit and Opportunity.",
+      "relatedEquipment": [
+        { "id": "sojourner-rover", "name": "Sojourner Rover" },
+        { "id": "spirit-rover", "name": "Spirit Rover (MER-A)" }
+      ],
+      "sourceLabel": "NASA Science Instruments",
+      "sourceUrl": "https://science.nasa.gov/mission/mars-pathfinder/"
+    },
+    {
+      "id": "ascent-descent-stage",
+      "term": "Ascent Stage & Descent Stage",
+      "category": "Spacecraft & Propulsion",
+      "definition": "A two-part lunar lander architecture where the lower descent stage houses landing legs, radar, and landing engines—and remains on the surface as a launch pad—while the upper ascent stage carries astronauts back to lunar orbit.",
+      "atlasContext": "All six crewed Apollo descent stages remain upright on the Moon after launching their ascent stages back into orbit.",
+      "relatedEquipment": [
+        { "id": "apollo-lm-descent-stages", "name": "Apollo Lunar Module Descent Stages" }
+      ],
+      "sourceLabel": "NASA Apollo Spacecraft Reference",
+      "sourceUrl": "https://science.nasa.gov/mission/apollo/"
+    },
+    {
+      "id": "breccia",
+      "term": "Impact Breccia",
+      "category": "Planetary Geology",
+      "definition": "A coarse-grained rock composed of broken, angular fragments of older rocks fused together by the heat and pressure of meteorite impacts on a planetary surface.",
+      "atlasContext": "Apollo 16 astronauts used Lunar Roving Vehicle LRV-2 in the Descartes Highlands and discovered impact breccias rather than the volcanic rocks planners expected.",
+      "relatedEquipment": [
+        { "id": "lunar-roving-vehicles", "name": "Lunar Roving Vehicles (LRV-1, LRV-2, LRV-3)" }
+      ],
+      "sourceLabel": "NASA Lunar Geology Glossary",
+      "sourceUrl": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "exosphere",
+      "term": "Exosphere",
+      "category": "Planetary Geology",
+      "definition": "The outermost, extremely thin atmospheric region surrounding a planet or moon where gas molecules are so sparse that they rarely collide with one another and can escape into space.",
+      "atlasContext": "ALSEP instruments deployed during the Apollo program measured trace gases in the Moon's tenuous surface-bounded exosphere.",
+      "relatedEquipment": [
+        { "id": "alsep-packages", "name": "ALSEP Scientific Packages" }
+      ],
+      "sourceLabel": "NASA Science Glossary",
+      "sourceUrl": "https://science.nasa.gov/glossary/"
+    },
+    {
+      "id": "eva",
+      "term": "Extravehicular Activity (EVA)",
+      "category": "Instruments & Operations",
+      "definition": "Any activity performed by an astronaut outside a spacecraft or beyond the pressurized cabin of a lander, such as a spacewalk or geological traverses on the lunar surface.",
+      "atlasContext": "Lunar Roving Vehicles extended Apollo 15, 16, and 17 EVAs up to dozens of kilometers across lunar valleys and crater rims.",
+      "relatedEquipment": [
+        { "id": "lunar-roving-vehicles", "name": "Lunar Roving Vehicles (LRV-1, LRV-2, LRV-3)" },
+        { "id": "surveyor-3", "name": "Surveyor 3 Lander" }
+      ],
+      "sourceLabel": "NASA Spaceflight Glossary",
+      "sourceUrl": "https://www.nasa.gov/"
+    },
+    {
+      "id": "hematite",
+      "term": "Hematite",
+      "category": "Planetary Geology",
+      "definition": "An iron oxide mineral (Fe₂O₃) that on Earth and Mars commonly forms in environments where liquid water is present, making it a key mineral indicator of ancient wet conditions.",
+      "atlasContext": "Opportunity discovered tiny spherical hematite grains—nicknamed 'blueberries'—embedded in layered rocks at Meridiani Planum.",
+      "relatedEquipment": [
+        { "id": "opportunity-rover", "name": "Opportunity Rover (MER-B)" }
+      ],
+      "sourceLabel": "NASA Mars Exploration Science",
+      "sourceUrl": "https://science.nasa.gov/mission/mer-opportunity/"
+    },
+    {
+      "id": "kapton",
+      "term": "Kapton Thermal Insulation",
+      "category": "Spacecraft & Propulsion",
+      "definition": "A lightweight, heat-resistant polyimide film often coated with gold or aluminum to form multi-layer insulation (MLI) blankets that shield spacecraft hardware from extreme solar heating and deep-space cold.",
+      "atlasContext": "Distinctive crinkled gold-colored Kapton blankets still wrap the surviving Apollo Lunar Module descent stages resting on the Moon.",
+      "relatedEquipment": [
+        { "id": "apollo-lm-descent-stages", "name": "Apollo Lunar Module Descent Stages" }
+      ],
+      "sourceLabel": "NASA Spacecraft Materials Reference",
+      "sourceUrl": "https://www.nasa.gov/"
+    },
+    {
+      "id": "lunar-maria",
+      "term": "Lunar Maria (Mare)",
+      "category": "Planetary Geology",
+      "definition": "Large, dark, flat basaltic plains on the Moon formed billions of years ago by ancient volcanic lava flows filling giant impact basins. Early astronomers called them maria, Latin for 'seas.'",
+      "atlasContext": "Surveyor 1, Surveyor 3, and Apollo 11 landed on lunar maria such as Oceanus Procellarum and Mare Tranquillitatis.",
+      "relatedEquipment": [
+        { "id": "surveyor-1", "name": "Surveyor 1 Lander" },
+        { "id": "apollo-lm-descent-stages", "name": "Apollo Lunar Module Descent Stages" }
+      ],
+      "sourceLabel": "NASA Moon Science",
+      "sourceUrl": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "micrometeoroid",
+      "term": "Micrometeoroid",
+      "category": "Planetary Geology",
+      "definition": "A microscopic particle of rock or metal traveling through space—typically weighing less than a gram—whose hypervelocity impacts slowly weather exposed spacecraft surfaces and planetary regolith.",
+      "atlasContext": "Inspecting Surveyor 3 parts returned by Apollo 12 helped NASA engineers study 31 months of real lunar micrometeoroid pitting.",
+      "relatedEquipment": [
+        { "id": "surveyor-3", "name": "Surveyor 3 Lander" },
+        { "id": "alsep-packages", "name": "ALSEP Scientific Packages" }
+      ],
+      "sourceLabel": "NASA Space Environment Reference",
+      "sourceUrl": "https://science.nasa.gov/glossary/"
+    },
+    {
+      "id": "rtg",
+      "term": "Radioisotope Thermoelectric Generator (RTG)",
+      "category": "Spacecraft & Propulsion",
+      "definition": "A nuclear power system that converts heat released by the natural radioactive decay of plutonium-238 directly into electricity via thermocouples, providing dependable power regardless of sunlight.",
+      "atlasContext": "SNAP-27 RTGs powered the Apollo ALSEP observatories through two-week lunar nights, and dual RTGs powered the Viking 1 and Viking 2 Mars landers.",
+      "relatedEquipment": [
+        { "id": "alsep-packages", "name": "ALSEP Scientific Packages" },
+        { "id": "viking-1-lander", "name": "Viking 1 Lander" },
+        { "id": "viking-2-lander", "name": "Viking 2 Lander" }
+      ],
+      "sourceLabel": "NASA Radioisotope Power Systems",
+      "sourceUrl": "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/"
+    },
+    {
+      "id": "regolith",
+      "term": "Regolith",
+      "category": "Planetary Geology",
+      "definition": "The layer of loose, fragmented, unconsolidated rock, mineral grains, and fine dust covering solid bedrock on planetary bodies like the Moon and Mars.",
+      "atlasContext": "Surveyor 1 and Surveyor 3 tested lunar regolith bearing strength and cohesion before Apollo astronauts landed on it.",
+      "relatedEquipment": [
+        { "id": "surveyor-1", "name": "Surveyor 1 Lander" },
+        { "id": "surveyor-3", "name": "Surveyor 3 Lander" }
+      ],
+      "sourceLabel": "NASA Planetary Science Glossary",
+      "sourceUrl": "https://science.nasa.gov/glossary/"
+    },
+    {
+      "id": "retroreflector",
+      "term": "Laser Ranging Retroreflector",
+      "category": "Instruments & Operations",
+      "definition": "An array of precision corner-cube glass prisms designed to bounce incoming laser beams directly back along their exact incoming path toward Earth observatories for millimeter-scale distance measurements.",
+      "atlasContext": "Retroreflectors left during Apollo 11, 14, and 15 still operate passively today, allowing scientists to measure the Moon's orbit and gradual recession from Earth.",
+      "relatedEquipment": [
+        { "id": "alsep-packages", "name": "ALSEP Scientific Packages" },
+        { "id": "apollo-lm-descent-stages", "name": "Apollo Lunar Module Descent Stages" }
+      ],
+      "sourceLabel": "NASA Lunar Laser Ranging",
+      "sourceUrl": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "retrorocket",
+      "term": "Retrorocket",
+      "category": "Spacecraft & Propulsion",
+      "definition": "A rocket engine fired opposite to a spacecraft's direction of travel to slow down velocity for orbital insertion or planetary landing.",
+      "atlasContext": "Surveyor 1 and Surveyor 3 fired solid-propellant main retrorockets to brake from high lunar approach speed before jettisoning the spent casings ~11 km above the Moon.",
+      "relatedEquipment": [
+        { "id": "surveyor-1", "name": "Surveyor 1 Lander" },
+        { "id": "surveyor-3", "name": "Surveyor 3 Lander" }
+      ],
+      "sourceLabel": "NASA Spaceflight Reference",
+      "sourceUrl": "https://www.nasa.gov/"
+    },
+    {
+      "id": "rocker-bogie",
+      "term": "Rocker-Bogie Suspension",
+      "category": "Spacecraft & Propulsion",
+      "definition": "A passive six-wheel mechanical rover suspension system using pivoted 'rocker' and 'bogie' links instead of springs, keeping all wheels on uneven ground while minimizing chassis tilt over rocks.",
+      "atlasContext": "First proven on Mars by the 10.6-kilogram Sojourner rover and later scaled up for Spirit, Opportunity, Curiosity, and Perseverance.",
+      "relatedEquipment": [
+        { "id": "sojourner-rover", "name": "Sojourner Rover" },
+        { "id": "spirit-rover", "name": "Spirit Rover (MER-A)" },
+        { "id": "opportunity-rover", "name": "Opportunity Rover (MER-B)" }
+      ],
+      "sourceLabel": "NASA Mars Rover Mobility",
+      "sourceUrl": "https://science.nasa.gov/mission/mars-pathfinder/"
+    },
+    {
+      "id": "silica",
+      "term": "Silica (SiO₂)",
+      "category": "Planetary Geology",
+      "definition": "Silicon dioxide, a common rock-forming mineral compound that, when concentrated in nearly pure deposits on Mars, strongly points to alteration by hot water or volcanic steam vents.",
+      "atlasContext": "Spirit's crippled wheel dragged a trench near Home Plate in Gusev Crater that exposed nearly pure silica deposits—key evidence of ancient hydrothermal activity.",
+      "relatedEquipment": [
+        { "id": "spirit-rover", "name": "Spirit Rover (MER-A)" },
+        { "id": "sojourner-rover", "name": "Sojourner Rover" }
+      ],
+      "sourceLabel": "NASA Mars Exploration Program",
+      "sourceUrl": "https://science.nasa.gov/mission/mer-spirit/"
+    },
+    {
+      "id": "sol",
+      "term": "Sol (Martian Solar Day)",
+      "category": "Instruments & Operations",
+      "definition": "One solar day on Mars, lasting approximately 24 hours, 39 minutes, and 35 seconds—slightly longer than an Earth day—used by NASA mission teams to schedule rover and lander activities.",
+      "atlasContext": "Viking 1 operated for 2,245 sols, Sojourner for 83 sols, Spirit for 2,208 sols, and Opportunity for a record 5,111 sols.",
+      "relatedEquipment": [
+        { "id": "viking-1-lander", "name": "Viking 1 Lander" },
+        { "id": "opportunity-rover", "name": "Opportunity Rover (MER-B)" }
+      ],
+      "sourceLabel": "NASA Mars Timekeeping",
+      "sourceUrl": "https://science.nasa.gov/mars/"
+    },
+    {
+      "id": "vernier-engine",
+      "term": "Vernier Engine",
+      "category": "Spacecraft & Propulsion",
+      "definition": "Small, throttleable rocket thrusters used alongside or after a main engine to provide fine attitude stabilization and precise final descent velocity control.",
+      "atlasContext": "Surveyor landers used three liquid-propellant vernier engines for gentle terminal touchdown on the Moon; on Surveyor 3, delayed engine cutoff caused two bounces inside Surveyor Crater.",
+      "relatedEquipment": [
+        { "id": "surveyor-1", "name": "Surveyor 1 Lander" },
+        { "id": "surveyor-3", "name": "Surveyor 3 Lander" }
+      ],
+      "sourceLabel": "NASA Propulsion Reference",
+      "sourceUrl": "https://www.nasa.gov/"
+    }
+  ]
+}
